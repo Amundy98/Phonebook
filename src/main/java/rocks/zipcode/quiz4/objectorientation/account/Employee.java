@@ -54,7 +54,7 @@ public class Employee implements Transactable, Worker {
 
     @Override
     public Double getBalance() {
-        return balance;
+        return bankAccount.getBalance();
     }
 
     @Override
